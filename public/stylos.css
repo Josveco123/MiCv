@@ -1,0 +1,347 @@
+body {
+    min-width: 400px;
+}
+
+#logo_a {
+    width: 30%;
+}
+
+/* contenedor del logo y nomnbre */
+.nombre_jvc {
+    padding-top: 18px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    color: green;
+    letter-spacing: -3px;
+}
+
+/* contenedor  dlu de los li*/
+.navbar {
+    height: 70px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+li {
+    padding-left: 15px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    /* Si el ancho de la pantalla es igual o menor a 1000px, oculta el logo */
+    #logo_jvc {
+        display: none !important;
+    }
+}
+
+/* cuerpo de informacion o tablero general */
+
+#tablero {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#inf_personal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    width: 25%;
+    height: 94vh;
+    background: rgb(72, 72, 72);
+}
+
+.linea_w {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 98%;
+    border: solid 1px rgb(185, 184, 184);
+}
+
+#linea_w_span {
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    color: white;
+    padding-right: 20px;
+}
+
+.linea_w_p {
+    text-align: justify;
+}
+
+#img_foto {
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+#inf_adicional {
+    width: 75%;
+    height: 94vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 25px solid rgb(72, 72, 72);
+    border-right: 25px solid rgb(72, 72, 72);
+    border-bottom: 40px solid rgb(72, 72, 72);
+}
+
+.linea {
+    margin-top: 0px;
+    width: 96%;
+    height: 1PX;
+    border: 1px solid rgb(199, 196, 196);
+}
+
+/* modulo desarrollo incluido dentro de cuerpo*/
+
+#primera_linea {
+    width: 100%;
+}
+
+.desarrollo_color {
+    font-size: 25px;
+    color: rgb(131, 103, 103);
+    margin-bottom: 0;
+}
+
+.img_25 {
+    width: 22px;
+    color: rgb(151, 148, 148);
+}
+
+.content_p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.p_span {
+    font-weight: bold;
+}
+
+.acordeon {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.acordeon img {
+    float: left;
+    /* Hacer que la imagen flote a la izquierda */
+    margin-right: 20px;
+    /* Agregar un margen derecho para separar el texto de la imagen */
+}
+
+.acordion-button:hover {
+    font-size: 0.8em;
+    color: darkgreen;
+}
+
+.punto {
+    font-size: 35px;
+    margin-left: -10px;
+    width: 20%;
+    height: 4vh;
+    margin-left: -20px;
+}
+
+.universitaria {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+    border-bottom: 3px solid green;
+}
+
+/*
+
+  cajon para todos los estudios
+
+*/
+
+#cajon_academico {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+
+}
+
+#borde_left {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 1;
+    height: 62vh;
+    border-left: 1px solid green;
+}
+
+/*
+   Cajon para titulos UNIVERSITARIOS
+
+*/
+#universitario_punto {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+#universitario_punto img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.acordeon_estudio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 25px;
+    text-align: justify;
+}
+
+.acordeon_estudio img {
+    float: left;
+    width: 15vw;
+    /* Hacer que la imagen flote a la izquierda
+    margin-right: 20px;*/
+    /* Agregar un margen derecho para separar el texto de la imagen */
+}
+
+.univ_t {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.certificados {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
+}
+
+.certificados label {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(133, 128, 128)
+}
+
+.certificados p {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.certificado_p1 {
+    font-size: 25px !important;
+    color: rgb(224, 105, 49)
+}
+
+/*
+   cajoN para titulos POSTGRADOS
+
+*/
+.acordeon_estudio_postgrado {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 25px;
+    text-align: justify;
+}
+
+.univ_t_posgrado {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.certificados_postgrado{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
+}
+
+.certificados_postgrado label{
+    line-height: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(133, 128, 128);
+
+}
+
+.certificado_p1_postgrado {
+    font-size: 25px !important;
+    color: rgb(48, 35, 158);
+}
+
+.certificados_postgrado p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/*
+   cajoN para OTROS titulos
+
+*/
+.acordeon_estudio_otros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.univ_t_otros {
+    width: 17vw;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+ }
+
+.certificados_otros{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
+}
+
+.certificados_otros label{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(133, 128, 128);
+}
+.www{
+    font-size: 10px;
+    line-height: .8;
+}
+
+.certificado_p1_otros {
+    line-height: 1;
+    font-size: 20px !important;
+    color: rgb(173, 146, 25);
+}
+
+.certificados_otros p {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
