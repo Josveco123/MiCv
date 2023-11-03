@@ -3,7 +3,11 @@ body {
 }
 
 #logo_a {
-    width: 30%;
+    display: flex;
+    width: 15%;
+    color:rgb(78, 78, 231);
+    justify-content: center;
+    text-align:center;
 }
 
 /* contenedor del logo y nomnbre */
@@ -27,7 +31,9 @@ li {
     padding-left: 15px;
 }
 
-
+.desarrollo_h1{
+    color:rgb(16, 16, 170);
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -55,6 +61,10 @@ li {
     background: rgb(72, 72, 72);
 }
 
+#jmvc{
+    font-family: 'Monoton', sans-serif;
+    font-family: 'Rye', serif;
+}
 .linea_w {
     display: flex;
     flex-direction: column;
@@ -74,7 +84,12 @@ li {
     padding-right: 20px;
 }
 
-.linea_w_p {
+.p1 {
+    font-size: 16px;
+    text-align: justify;
+}
+.p2 {
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -96,7 +111,7 @@ li {
 
 .linea {
     margin-top: 0px;
-    width: 96%;
+    width: 100%;
     height: 1PX;
     border: 1px solid rgb(199, 196, 196);
 }
@@ -108,11 +123,15 @@ li {
 }
 
 .desarrollo_color {
-    font-size: 25px;
-    color: rgb(131, 103, 103);
+    font-size: 27px;
+    color: rgb(143, 139, 139);
     margin-bottom: 0;
 }
-
+.datos_contacto {
+    font-size: 20px;
+    color: rgb(143, 139, 139);
+    margin-bottom: 0;
+}
 .img_25 {
     width: 22px;
     color: rgb(151, 148, 148);
@@ -125,18 +144,6 @@ li {
 
 .p_span {
     font-weight: bold;
-}
-
-.acordeon {
-    font-size: 25px;
-    text-align: justify;
-}
-
-.acordeon img {
-    float: left;
-    /* Hacer que la imagen flote a la izquierda */
-    margin-right: 20px;
-    /* Agregar un margen derecho para separar el texto de la imagen */
 }
 
 .acordion-button:hover {
@@ -152,12 +159,6 @@ li {
     margin-left: -20px;
 }
 
-.universitaria {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(87, 85, 85);
-    border-bottom: 3px solid green;
-}
 
 /*
 
@@ -186,25 +187,45 @@ li {
    Cajon para titulos UNIVERSITARIOS
 
 */
-#universitario_punto {
-    font-size: 20px;
-    font-weight: bold;
-    color: darkcyan;
+.univ {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: rgb(118, 120, 128) !important;
+}
+.accordion-button {
+font-size: 20px;
 }
 
-#universitario_punto img {
-    width: 25px;
+.accordion-button img {
+    width: 15px;
     margin-right: 10px;
 }
 
-.acordeon_estudio {
+.acordeon-welcome {
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: justify;
+    min-height: 200px;
+    color:rgb(104, 100, 100);
+}
+
+.acordeon-welcome img {
+    float: left;
+    width: 15vw;
+    margin-right: 20px;
+}
+
+
+.acordeon {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
     font-size: 25px;
     text-align: justify;
 }
 
-.acordeon_estudio img {
+.acordeon img {
     float: left;
     width: 15vw;
     /* Hacer que la imagen flote a la izquierda
@@ -213,107 +234,13 @@ li {
 }
 
 .univ_t {
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.certificados {
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
-}
-
-.certificados label {
-    font-size: 17px;
-    font-weight: bold;
-    color: rgb(133, 128, 128)
-}
-
-.certificados p {
-    margin: 0;
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.certificado_p1 {
-    font-size: 25px !important;
-    color: rgb(224, 105, 49)
-}
-
-/*
-   cajoN para titulos POSTGRADOS
-
-*/
-.acordeon_estudio_postgrado {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 25px;
-    text-align: justify;
-}
-
-.univ_t_posgrado {
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.certificados_postgrado{
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
-}
-
-.certificados_postgrado label{
-    line-height: 1;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(133, 128, 128);
-
-}
-
-.certificado_p1_postgrado {
-    font-size: 25px !important;
-    color: rgb(48, 35, 158);
-}
-
-.certificados_postgrado p {
-    margin: 0;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-
-/*
-   cajoN para OTROS titulos
-
-*/
-.acordeon_estudio_otros {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 1fr;
-    font-size: 25px;
-    text-align: justify;
-}
-
-.univ_t_otros {
     width: 17vw;
     margin-right: 5px;
     display: flex;
     flex-direction: row;
  }
 
-.certificados_otros{
+.certificados{
     padding: 5px;
     display: flex;
     width: 100%;
@@ -323,8 +250,8 @@ li {
     border-image: linear-gradient(to bottom, #eceaea 0%, #c0bebe 100%) 5 round;
 }
 
-.certificados_otros label{
-    font-size: 25px;
+.certificados label{
+    font-size: 20px;
     font-weight: bold;
     color: rgb(133, 128, 128);
 }
@@ -333,15 +260,74 @@ li {
     line-height: .8;
 }
 
-.certificado_p1_otros {
+.certificado_p1 {
     line-height: 1;
     font-size: 20px !important;
     color: rgb(173, 146, 25);
 }
 
-.certificados_otros p {
+.certificados p {
     margin: 0;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+   /* PRUBE TABLA */
+
+   table {
+    width: 100%;
+   }
+
+   .encabezado_menu {
+    background-color: rgb(230, 231, 236);
+  }
+
+  .encabezado_menu th{
+    padding: 0 5px;
+    border: 4px solid white;
+    font-size: 25px;
+    color:rgb(131, 131, 175);
+  }
+
+  table, td {
+    border: 3px solid white;
+    background-color: rgb(237, 240, 243);
+    padding: 0 5px;
+  }
+
+table tr td:first-child {
+    font-size: 18px;
+    color: rgb(145, 138, 138);
+    font-weight: bold;
+}
+
+table tr td:first-child + td {
+    color: rgb(147, 147, 163);
+    font-size: 20px;
+    font-weight: bold;
+ /* PRUBE TABLA
+font-family: 'Monoton', sans-serif;*/
+font-family: 'Petrona', serif;
+
+}
+
+table tr td:nth-child(3){
+    color: rgb(128, 123, 123);
+    font-size: 15px;
+}
+.link_certificados{
+    width: 95%;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgb(185, 182, 182);
+    justify-content: center;
+    align-items: center !important;
+}
+
+.link_certificados img:hover{
+    transform: scale(1.4);
+    background-color:white;
 }
 

@@ -11,11 +11,12 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        <strong class='me-3'>1.</strong>ASESORIA:
+                        <strong class='me-3'>1. ASESORIA</strong>
                     </button>
                 </h2>
+
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{ asset('storage/Imagenes/asesoria.png') }}" alt="">
                         <strong>Beneficios de la Asesoria.</strong> Acceder a un profesional que domina tanto el diseño de
                         la
@@ -46,11 +47,11 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <strong class='me-3'>2.</strong> APLICACIONES PERSONALIZADAS:
+                        <strong class='me-3'>2. APLICACIONES PERSONALIZADAS</strong>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{ asset('storage/Imagenes/app.png') }}" alt="">
                         <strong>Produciendo mejoras.</strong> Las mejoras en la realizacion de los procesos permite a los
                         usuarios crear, organizar y gestionar sus tareas diarias. Es útil para mejorar la productividad, el
@@ -64,11 +65,11 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <strong class='me-3'>3.</strong> NEGOCIOS EN LINEA:
+                        <strong class='me-3'>3. NEGOCIOS EN LINEA</strong>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{ asset('storage/Imagenes/online.png') }}" alt="">
                         <strong>Ganando Clientes.</strong> Esta aplicación
                         permite a los usuarios navegar por productos, agregar artículos al carrito y realizar pagos. Es una
@@ -84,11 +85,11 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <strong class='me-3'>4.</strong> RED SOCIAL:
+                        <strong class='me-3'>4. RED SOCIAL</strong>
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{ asset('storage/Imagenes/redesocial.png') }}" alt="">
                         <strong>Aumentar el consumo de publicidad en la nube</strong> Permite a los usuarios crear perfiles,
                         publicar contenido, seguir a otros usuarios, comentar y dar me gusta. Es una forma de generar
@@ -102,11 +103,11 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        <strong class='me-3'>5.</strong>  PAGINA WEB:
+                        <strong class='me-3'>5. PAGINA WEB</strong>
                     </button>
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{asset('storage/Imagenes/web.png')}}" alt="">
                         <strong>Presencia en el mundo </strong> Te permite tener una
                         presencia online y mostrar tu marca, tus productos o servicios a millones de personas en todo el
@@ -131,11 +132,11 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        <strong class='me-3'>6.</strong> OTROS:
+                        <strong class='me-3'>6. OTROS</strong>
                     </button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon">
+                    <div class="accordion-body acordeon-welcome">
                         <img src="{{asset('storage/Imagenes/otros.png')}}" alt="">
                         <strong>Mas beneficios </strong> Asi como los anteriores existen muchos mas beneficios de la utilizacion
                         de los procesos sistematizados, como son: Mejorar la calida, aumentar la productividad, facilitar la

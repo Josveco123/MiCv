@@ -7,8 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('stylos.css') }}">
+        <link rel="stylesheet" href="{{ asset('stylos.css') }}">
     <title>@yield('title')</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rye&display=swap');
+    </style>
 </head>
 
 <body>
@@ -17,10 +20,10 @@
         <div class="container-fluid">
 
             <a id='logo_a' class="navbar-brand d-flex align-items-center" href="{{ route('welcome') }}">
-                <img id='logo_jvc' class="d-inline img-fluid" src="{{ asset('storage/Imagenes/logo.png') }}"
-                    alt="">
-                <span class="d-inline nombre_jvc">Jose Vergara Cordero</span>
+                <img id='logo_jvc' class="d-inline img-fluid pe-2" src="{{ asset('storage/Imagenes/logo.png') }}"
+                    alt="logo"><span class='mt-4'>Home</span>
             </a>
+
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +63,7 @@
                         SOMBRE MI
                     </span>
 
-                    <p class='linea_w_p mt-2'>
+                    <p class='p1 mt-2'>
                         Ingeniero full stack con más de 5 años de experiencia en el desarrollo de aplicaciones web
                         dinámicas y
                         escalables usando Laravel HTTP, CSS, PHP, Node.js, React y MySQL. He participado en proyectos de
@@ -79,14 +82,10 @@
                         interal.
                     </p>
                     <div class='linea'></div>
-                    <span class='fs-6 mt-2 text-secondary'>
-                        ME PUEDES CONTACTAR REDES SOCIALES
+                    <span class='p2 mt-2 text-secondary'>
+                        ME PUEDES CONTACTAR POR EMAIL
                     </span>
-                    <p class='linea_w_p mt-2'>
-                        <span class="fs-4">Facebook</span>
-                        <br>
-                       <span class="fs-4">Tik-Tok</span>
-                     </p>
+                    <span class='p2 mt-2'>josever1@hotmail.com</span>
                 </div>
             </div>
 

@@ -9,231 +9,255 @@
         <div class="accordion" id="accordionExample">
             <!--
 
-                                      aqui comeinesa estudios UNIVERSITARIOS
+                                     aqui comeinesa estudios UNIVERSITARIOS
 
-             -->
+                                    -->
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id='universitario_punto' class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <img src="{{ asset('storage/Imagenes/circulo.png') }}" alt=""> UNIVERSITARIOS:
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <img src="{{ asset('storage/Imagenes/circulo_amarillo.png') }}" alt="">
+                        <span class='univ'> U N I V E R S I T A R I A </span>
                     </button>
                 </h2>
+
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon_estudio">
+                    <div class="accordion-body">
 
-                        <div class='univ_t'>
-                            <img src="{{ asset('storage/Imagenes/uniguajira.png') }}" alt="">
-                            <div class="certificados">
-                                <label>UNIVERSIDAD DE LA GUAJIRA</label>
-                                <span class='certificado_p1'>Ingeniero Industrial</span>
-                                <p> Duración: 5 años </p>
-                                <p> Títulado en Dic-1989</p>
-                            </div>
-                        </div>
+                        <table>
+                            <thead class='encabezado_menu'>
+                                <tr>
+                                    <th>Entidad</th>
+                                    <th>Titulo Obtenido</th>
+                                    <th>Duracion y fecha</th>
+                                    <th>Ver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Universidad de la Guajira</td>
+                                    <td>Ingeniero Industrial </td>
+                                    <td>5 años. Dic-1989</td>
+                                    <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                src="{{ asset('storage/Imagenes/search.svg') }}" alt="Ver"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Universidad Industrial De Santander</td>
+                                    <td>Ingeniero de Sistemas</td>
+                                    <td>5 años. Dic-2002</td>
+                                    <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                src="{{ asset('storage/Imagenes/search.svg') }}" alt="Ver"></a>
+                                    </td>
+                                </tr>
 
-                        <div class='univ_t'>
-                            <img src="{{ asset('storage/Imagenes/uis.png') }}" alt="">
-                            <div class="certificados">
-                                <label>UNIVERSIDA IND. DE SANTANDER</label>
-                                <span class='certificado_p1'>Ingeniero de Sistemas</span>
-                                <p> Duración: 5 años (Semi P.) </p>
-                                <p> Títulado en Dic-2002</p>
-                            </div>
-                        </div>
+                            </tbody>
+                        </table>
 
                     </div>
                 </div>
             </div>
+
+
             <!--
 
-                                      aqui comeinesa estudios POST GRADOS
+                                                                          aqui comeinesa estudios POST GRADOS
 
-                        -->
+                                                            -->
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id='universitario_punto' class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                        aria-controls="collapseTwo">
-                        <img src="{{ asset('storage/Imagenes/circulo_azul.png') }}" alt=""> POST-GRADOS:
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <img src="{{ asset('storage/Imagenes/circulo_azul.png') }}" alt="">
+                        <span class='univ'> P O S T - G R A D O S </span>
                     </button>
                 </h2>
 
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon_estudio_postgrado">
+                    <div class="accordion-body">
 
-                        <div class='univ_t_posgrado'>
-                            <img src="{{ asset('storage/Imagenes/Especializacion.png') }}" alt="">
-                            <div class="certificados_postgrado">
-                                <label>CORPORACION UNIVERSITARIA</label>
-                                <label>DEL CARIBE -CECAR- </label>
-                                <span class='certificado_p1_postgrado'>Especialista en Administración</span>
-                                <span class='certificado_p1_postgrado'>Financiera</span>
-                                <p> Duración: 1 año, Nov de 2004</p>
-                            </div>
-                        </div>
+                        <table>
+                            <thead class='encabezado_menu'>
+                                <tr>
+                                    <th>Entidad</th>
+                                    <th>Titulo Obtenido</th>
+                                    <th>Duracion y fecha</th>
+                                    <th>Ver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Corporacion Universitaria del Caribe</td>
+                                    <td>Especialista en Administración Financiera </td>
+                                    <td>1 año, Nov de 2004</td>
+                                    <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                src="{{ asset('storage/Imagenes/search.svg') }}" alt="Ver"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Universidad de Sucre</td>
+                                    <td>Docencia Universitaria</td>
+                                    <td>6 meses, Nov 2001</td>
+                                    <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                src="{{ asset('storage/Imagenes/search.svg') }}" alt="Ver"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ICONTEC</td>
+                                    <td>Gestion Extrategica del Talento Humano</td>
+                                    <td> Duracion 6 mese. Dic 2014</td>
+                                    <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                src="{{ asset('storage/Imagenes/search.svg') }}" alt="Ver"></a>
+                                    </td>
+                                </tr>
 
-                        <div class='univ_t_posgrado'>
-                            <img src="{{ asset('storage/Imagenes/docencia.png') }}" alt="">
-                            <div class="certificados_postgrado">
-                                <label>UNIVERSIDAD DE SUCRE</label>
-                                <span class='certificado_p1_postgrado'>Docencia Universitaria</span>
-                                <p> Duración: 6 meses, Nov 2001 </p>
-                            </div>
-                        </div>
+                            </tbody>
+                        </table>
 
                     </div>
                 </div>
             </div>
 
-            <!--
 
-                                      aqui comienzan OTROS CERTIFICADOS
 
-                    -->
+
+            <!--               PRUBE PILOTO -->
+
 
             <div class="accordion-item">
-
                 <h2 class="accordion-header">
-                    <button id='universitario_punto' class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseTree" aria-expanded="false"
-                        aria-controls="collapseTree">
-                        <img src="{{ asset('storage/Imagenes/circulo_verde.png') }}" alt="">OTROS ESTUDIOS:
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="{{ asset('storage/Imagenes/circulo_rojo.png') }}" alt="">
+                        <span class='univ'> O T R O S &nbsp E S T U D I O S </span>
                     </button>
                 </h2>
 
-                <div id="collapseTree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body acordeon_estudio_otros">
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div>
+                                <table>
+                                    <thead class='encabezado_menu'>
+                                        <tr>
+                                            <th>Entidad</th>
+                                            <th>Titulo Obtenido</th>
+                                            <th>Duracion y fecha</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>FreeCodeCampp</td>
+                                            <td>JavaScript Algorithms and Data Structures </td>
+                                            <td>300 Horas. Año 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CertyPro</td>
+                                            <td>Gestión de proyectos con metodologías ágiles </td>
+                                            <td>Febrero 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CertyPro</td>
+                                            <td>Ccertificado_p1'>Profesional Certificado SCRUM</td>
+                                            <td>Julio 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
 
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>JavaScript Algorithms</span>
-                                 <span class='certificado_p1_otros'>and Data Structures</span>
-                                <p> Duración: 300 Horas. Año 2022</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>javaScript-algorithms-and-data-structures</span>
+                                        <tr>
+                                            <td>IBM de Colombia</td>
+                                            <td>Redes de Area Local</td>
+                                            <td>48 Horas. Año 2002</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>IBM de Colombia</td>
+                                            <td>Diseño de Controles Para Sistemas de Información </td>
+                                            <td>60 Horas. Año 2012</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>EDteam</td>
+                                            <td>Laravel 9 Desde Cero</td>
+                                            <td>100 Horas. Sept/2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank">
+                                                    <img src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FreeCodeCamp</td>
+                                            <td>Front And DevelopmentLibraries62</td>
+                                            <td>300 Horas. Año 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}" target="_blank"><img
+                                                        src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>FreeCodeCamp</td>
+                                            <td>Relational Database</td>
+                                            <td>300 Horas. Año 2023</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}"
+                                                    target="_blank"><img src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>FreeCodeCamp</td>
+                                            <td>Responsive Web Design</td>
+                                            <td>300 Horas. Año 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}"
+                                                    target="_blank"><img src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FreeCodeCamp</td>
+                                            <td>Back End Development end API's</td>
+                                            <td>300 Horas. Año 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}"
+                                                    target="_blank"><img src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>FreeCodeCamp</td>
+                                            <td>Back End Development end API's</td>
+                                            <td>300 Horas. Año 2022</td>
+                                            <td class='link_certificados'><a href="{{ asset('storage/Imagenes/docencia.png') }}"
+                                                    target="_blank"><img src="{{ asset('storage/Imagenes/search.svg') }}"
+                                                        alt="Ver"></a>
+                                            </td>
+                                        </tr>
+
+                                        <!-- Agregue más filas según sea necesario -->
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>Back End Development</span>
-                                <span class='certificado_p1_otros'>end API's</span>
-                                <p> Duración: 300 Horas. Año 2022</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>back-end-development-and-apis</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>Responsive Web Design</span>
-                                <p> Duración: 300 Horas. Año 2022</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>responsive-web-design</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>Responsive Web Design</span>
-                                <p> Duración: 300 Horas. Año 2022</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>responsive-web-design</span>
-                            </div>
-                        </div>
-                        <!--
-                            segundo
-                        -->
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>Relational Database</span>
-                                <p> Duración: 300 Horas. Año 2023</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>relational-database</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>FREECODECAM</label>
-                                <span class='certificado_p1_otros'>Front And Development</span>
-                                <span class='certificado_p1_otros'>Libraries</span>
-                                <p> Duración: 300 Horas. Año 2022</p>
-                                <span class='www'>https://www.freecodecamp.org/certification/Josveco123/</span>
-                                <span class='www'>front-and-development-libraries</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>EDteam</label>
-                                <span class='certificado_p1_otros'>Laravel 9 Desde Cero</span>
-                                <p> Duración: 100 Horas. Sept/2022</p>
-                                <span class='www'>https://www.EDteam.com/certification</span>
-
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>UNINORTE</label>
-                                <span class='certificado_p1_otros'>Diseño de Controles Para </span>
-                                <span class='certificado_p1_otros'>Sistemas de Información</span>
-                                <p> Duración: 60 Horas. Año 2012</p>
-                                <span class='www'>Certificado: Fisico</span>
-                            </div>
-                        </div>
-                        <!--
-                            tercer
-                        -->
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>IBM DE COLOMBIA</label>
-                                <span class='certificado_p1_otros'>Redes de Area Local</span>
-                                <p> Duración: 48 Horas. Año 2002</p>
-                                <span class='www'>Certificado: Fisico</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>CertiProf</label>
-                                <span class='certificado_p1_otros'>Profesional Certificado SCRUM</span>
-                                <p>Julio 2022</p>
-                                <span class='www'>Certificado ID: 77438578</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>ICONTEC</label>
-                                <span class='certificado_p1_otros'>Certificado Como Auditor en</span>
-                                <span class='certificado_p1_otros'>Gestion de Calidad ISO Ver 2015</span>
-                                <p> Duración: 40 Horas. Año 2014</p>
-                                <span class='www'>Certificado Fisico</span>
-                            </div>
-                        </div>
-
-                        <div class='univ_t_otros'>
-                            <div class="certificados_otros">
-                                <label>ICONTEC</label>
-                                <span class='certificado_p1_otros'>Gestion Estrategica</span>
-                                <span class='certificado_p1_otros'>del Talento Humano</span>
-                                <p> Diplomado. Año 2014</p>
-                                <span class='www'>Certificado Fisico</span>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
