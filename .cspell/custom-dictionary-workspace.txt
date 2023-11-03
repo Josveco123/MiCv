@@ -1,0 +1,8 @@
+# Custom Dictionary Words
+-Desarrollar el plan extrategico de IT de la CIA <br>
+                                        -Direccionar las funciones del Dpto. de Sistemas<br>
+                                        - Liderar el Proceso de sitematizacion de la fabrica <br>
+                                        - Participar en el comite de IT del Grupo ARGOS <br>
+                                        - Logros: Sistematizar Practicamente todos los <br>
+                                        procesos del area Adtiva.
+                                    </td>

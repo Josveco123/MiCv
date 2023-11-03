@@ -11,7 +11,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        <strong class='me-3'>1. ASESORIA</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_amarillo.png') }}" alt="">
+                        <strong class='me-3'>ASESORIA</strong>
                     </button>
                 </h2>
 
@@ -47,7 +48,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <strong class='me-3'>2. APLICACIONES PERSONALIZADAS</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_azul.png') }}" alt="">
+                        <strong class='me-3'>APLICACIONES PERSONALIZADAS</strong>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -65,7 +67,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <strong class='me-3'>3. NEGOCIOS EN LINEA</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_rojo.png') }}" alt="">
+                        <strong class='me-3'>NEGOCIOS EN LINEA</strong>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -85,7 +88,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <strong class='me-3'>4. RED SOCIAL</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_amarillo.png') }}" alt="">
+                        <strong class='me-3'>RED SOCIAL</strong>
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -103,7 +107,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        <strong class='me-3'>5. PAGINA WEB</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_azul.png') }}" alt="">
+                        <strong class='me-3'>PAGINA WEB</strong>
                     </button>
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -132,7 +137,8 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        <strong class='me-3'>6. OTROS</strong>
+                        <img src="{{ asset('storage/Imagenes/circulo_rojo.png') }}" alt="">
+                        <strong class='me-3'>OTROS</strong>
                     </button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
