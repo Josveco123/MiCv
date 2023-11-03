@@ -136,13 +136,13 @@
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div>
-                            <div>
+
                                 <table>
                                     <thead class='encabezado_menu'>
                                         <tr>
                                             <th>Entidad</th>
                                             <th>Titulo Obtenido</th>
-                                            <th>Duracion y fecha</th>
+                                            <th>Duración y fecha</th>
                                             <th>Ver</th>
                                         </tr>
                                     </thead>
@@ -254,7 +254,7 @@
                                         <!-- Agregue más filas según sea necesario -->
                                     </tbody>
                                 </table>
-                            </div>
+
                         </div>
                     </div>
                 </div>

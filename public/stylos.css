@@ -1,7 +1,12 @@
 body {
     min-width: 400px;
 }
-
+.accordion-body {
+width: 100%;
+    border-bottom: 3px solid rgb(190, 209, 236);
+    border-left: 3px solid rgb(190, 209, 236);
+    border-right: 3px solid rgb(190, 209, 236);
+}
 #logo_a {
     display: flex;
     width: 15%;
@@ -304,12 +309,10 @@ table tr td:first-child {
 }
 
 table tr td:first-child + td {
-    color: rgb(147, 147, 163);
+    color: rgb(72, 72, 112);
     font-size: 20px;
     font-weight: bold;
- /* PRUBE TABLA
-font-family: 'Monoton', sans-serif;*/
-font-family: 'Petrona', serif;
+    font-family: 'Petrona', serif;
 
 }
 
@@ -326,8 +329,23 @@ table tr td:nth-child(3){
     align-items: center !important;
 }
 
-.link_certificados img:hover{
-    transform: scale(1.4);
-    background-color:white;
+.link_certificados:hover{
+    background-color: rgb(142, 156, 233);
 }
 
+.link_certificados img:hover {
+
+    width: 20px;
+    animation: move-lupa 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes move-lupa {
+    from {
+      transform: scale(1) translateX(0);
+
+    }
+    to {
+      transform: scale(1.5) translateX(10px);
+
+    }
+  }
