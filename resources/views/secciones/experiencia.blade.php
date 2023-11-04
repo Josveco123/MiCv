@@ -66,7 +66,7 @@
                                     <td>Fundación Desarrollo y <br>
                                         Paz Montes de Maria
                                     </td>
-                                    <td>Asesor de la implementacion extrategica de IT
+                                    <td>Asesor para implementacion extrategica de IT
                                     </td>
                                     <td>2008-2016</td>
                                     <td>- Desrrollar a Satisfaccion los Programa establecidos <br>
@@ -79,7 +79,7 @@
                                 </tr>
                                 <tr>
                                     <td>Universidad de Sucre</td>
-                                    <td>Profesor Proyectos y Simulacion Financier </td>
+                                    <td>Profesor Proyectos y Simulacion Financiera</td>
                                     <td>2008-2016</td>
                                     <td>- Desrrollar a Satisfaccion los Programa establecidos <br>
                                         - Desarrollar montajes en sistemas de simulaciones financieras
@@ -91,7 +91,7 @@
                                 </tr>
                                 <tr>
                                     <td>Almidones de Sucre</td>
-                                    <td>Dirección Administrativa </td>
+                                    <td>Director Administrativa </td>
                                     <td>2009-2014</td>
                                     <td>- Diseño e implementación sistemas de comunicacion de voz y datos <br>
                                         - Diseño e implementacion sistemas de comunicacion de voz <br>
@@ -105,7 +105,7 @@
                                 </tr>
                                 <tr>
                                     <td>Transportes Urbanos<br>de Sincelejo</td>
-                                    <td>Direccion Administrativa </td>
+                                    <td>Gerente</td>
                                     <td>2014-2017</td>
                                     <td>- Gerente <br>
                                         - Dirigir, Coordinar y organizar la empresa<br>

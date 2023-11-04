@@ -41,7 +41,7 @@
                                     <td>cel. xxxxxxxxxxxx</td>
                                 </tr>
                                 <tr>
-                                    <td>Amidones de Sucre</td>
+                                    <td>Almidones de Sucre</td>
                                     <td>Jaime Gomes</td>
                                     <td>Gerente</td>
                                     <td>cel. xxxxxxxxxxxx</td>
@@ -128,21 +128,20 @@
                             <tbody>
                                 <tr>
 
-                                    <td>Oscar Cardona</td>
-                                    <td>Empresario</td>
-                                    <td>cel. xxxxxxxxxxxx</td>
+                                    <td>Humberto Vergara Quintero</td>
+                                    <td>Ingeniero Mecanico</td>
+                                    <td>whatsApp. </td>
                                 </tr>
                                 <tr>
 
-                                    <td>Pedro Padilla</td>
-                                    <td>Instructor</td>
+                                    <td>Carlos Mario Ferro Vergara</td>
+                                    <td>Full Satck</td>
                                     <td>cel. xxxxxxxxxxxx</td>
                                 </tr>
                                 <tr>
-
-                                    <td>Julio Montes</td>
-                                    <td>Trabajador</td>
-                                    <td>cel. xxxxxxxxxxxx</td>
+                                    <td>Liliana Restrepo Veregara</td>
+                                    <td>Auxiliar Contable</td>
+                                    <td>Cel. xxxxxxxx</td>
                                 </tr>
 
                             </tbody>
